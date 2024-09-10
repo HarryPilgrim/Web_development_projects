@@ -1,14 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css">
-    <title>Page 2</title>
+  <meta charset="utf-8">
+  <title>Drum Kit</title>
+  <link rel="stylesheet" href="styles_piano.css">
+  <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
 </head>
+
+
 <body>
-    <h1>Welcome to Page 2</h1>
+    <h1 id="title">Piano</h1>
     <button id="goToPage1">Go to Page 1</button>
+
+<div style="display:inline">
+    <div class="piano set" style="width:100%;">
+            <div data-note="C" class="key white"></div>
+            <div data-note="C_s" class="key black"></div>
+            <div data-note="D" class="key white"></div>
+            <div data-note="D_s" class="key black"></div>
+            <div data-note="E" class="key white"></div>
+            <div data-note="F" class="key white"></div>
+            <div data-note="F_s" class="key black"></div>
+            <div data-note="G" class="key white"></div>
+            <div data-note="G_s" class="key black"></div>
+            <div data-note="A" class="key white"></div>
+            <div data-note="A_s" class="key black"></div>
+            <div data-note="B" class="key white"></div>
+
+    </div>
+
+</div>
+
+    <audio id="C" src="piano_sounds/C.mp3"></audio>
+    <audio id="C_s" src="piano_sounds/C_s.mp3"></audio>
+    <audio id="D" src="piano_sounds/D.mp3"></audio>
+    <audio id="D_s" src="piano_sounds/D_s.mp3"></audio>
+    <audio id="E" src="piano_sounds/E.mp3"></audio>
+    <audio id="F" src="piano_sounds/F.mp3"></audio>
+    <audio id="F_s" src="piano_sounds/F_s.mp3"></audio>
+    <audio id="G" src="piano_sounds/G.mp3"></audio>
+    <audio id="G_s" src="piano_sounds/G_s.mp3"></audio>
+    <audio id="A" src="piano_sounds/A.mp3"></audio>
+    <audio id="A_s" src="piano_sounds/A_s.mp3"></audio>
+    <audio id="B" src="piano_sounds/B.mp3"></audio>
 
 
     <script src="js/piano.js"></script>
