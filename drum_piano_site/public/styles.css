@@ -3,6 +3,11 @@ body {
   background-color: #283149;
 }
 
+#title {
+  margin-bottom: 10px;
+}
+
+
 h1 {
   font-size: 5rem;
   color: #DBEDF3;
